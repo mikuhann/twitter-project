@@ -1,10 +1,13 @@
-@backgroundColor:orange;
+@backgroundColor:#d5e9ed;
+@mainColor:#087de1;
 body {
     background-color: @backgroundColor;
-    color: black;
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 20px;
 }
-h1 {
-    font-size: 32px;
-    color:yellow;
+@import "blocks/profile.less";
+@import "blocks/stats.less";
+.block-2 {
+    height: 300px;
+    background-color: green;
 }
