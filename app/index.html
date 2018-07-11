@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,400i&amp;subset=cyrillic-ext" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <div class="row">
             <!-- left column -->
             <div class="col-md-4">
-                <div class="card">
+                <div class="card mb-3">
                     <div class="profile-background">
                     </div>
                     <div class="profile-avatar">
@@ -30,7 +32,7 @@
                             <li class="stats-item">
                                 <b class="stats-title">Твиты</b>
                                 <b class="stats-count">57</b>
-                            <!-- </li>
+                                <!-- </li>
                             <li class="stats-item">
                                 <b class="stats-title">Лайки</b>
                                 <b class="stats-count">257</b>
@@ -45,12 +47,63 @@
             </div>
             <!-- right column -->
             <div class="col-md-8">
-                <div class="block-2"></div>
+                <!-- tweet form -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="userMessage" placeholder="Что нового?">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Твитнуть</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- tweets -->
+                <div class="card tweet-card tweet-card-rounded-top">
+                    <div class="h4 mb-0">Твиты пользователя</div>
+                </div>
+                <!-- single tweet -->
+                <div class="card tweet-card">
+                    <div class="tweet-date">10 июля 2018г.</div>
+                    <div class="tweet-text tweet-font-size-small">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam similique quae iste ipsa mollitia!
+                            Inventore atque architecto consequatur aperiam labore exercitationem, tempora, at quibusdam numquam
+                            quam, aspernatur enim sint recusandae!</p>
+                        <a href="http://google.com">Google</a>
+                    </div>
+                </div>
+                <div class="card tweet-card">
+                    <div class="tweet-date">10 июля 2018г.</div>
+                    <div class="tweet-text weet-font-size-normal">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam similique quae iste ipsa mollitia!
+                            Inventore atque architecto consequatur aperiam labore exercitationem, tempora, at quibusdam numquam
+                            quam, aspernatur enim sint recusandae!</p>
+                        <a href="http://google.com">Google</a>
+                    </div>
+                </div>
+                <div class="card tweet-card">
+                    <div class="tweet-date">10 июля 2018г.</div>
+                    <div class="tweet-text tweet-font-size-large">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam similique quae iste ipsa mollitia!
+                            Inventore atque architecto consequatur aperiam labore exercitationem, tempora, at quibusdam numquam
+                            quam, aspernatur enim sint recusandae!</p>
+                        <a href="http://google.com">Google</a>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <p class="footer-copyright">
+                        Vitalya Oleynik <br>
+                        <a href="https://github.com/mikuhann" class="footer-link">Git</a>
+                        12.07.2018
+                    </p>
+                </footer>
             </div>
         </div>
     </div>
     <script src="libs/jquery/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
